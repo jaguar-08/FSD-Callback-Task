@@ -1,0 +1,51 @@
+
+
+section {
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    
+}
+
+
+
+#timer .card-header {
+    
+    font-size: 75px;
+    background: aquamarine;
+}
+
+#timer , #countdown {
+    
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    text-shadow: 2px black;
+    padding: 40px 0;
+
+    
+}
+
+#countdown .timer {
+    margin: 10px;
+    padding: 20px;
+    font-size: 60px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
